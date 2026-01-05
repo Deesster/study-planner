@@ -20,9 +20,12 @@ while True:
     if not tasks:
       print("No tasks yet")
     else:
-      print("\nYour tasks:")
-      for i, task in enumerate(tasks, start=1):
-        print(f"{i}. {task['subject']} | {task['deadline']} | {task['priority']}")
+      ```python
+print("\nYour tasks:")
+for i, task in enumerate(tasks, start=1):
+    print(f"{i}. Subject: {task['subject']}")
+    print(f"   Deadline: {task['deadline']}")
+    print(f"   Priority: {task['priority']}")
   elif choise=="3":
     print("Good luck with your studies")
     break
