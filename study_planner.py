@@ -20,8 +20,7 @@ while True:
     if not tasks:
       print("No tasks yet")
     else:
-      ```python
-print("\nYour tasks:")
+      print("\nYour tasks:")
 for i, task in enumerate(tasks, start=1):
     print(f"{i}. Subject: {task['subject']}")
     print(f"   Deadline: {task['deadline']}")
